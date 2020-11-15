@@ -36,7 +36,7 @@ public class Information {
                 +"\nThis is a paint program created to draw on the screen."
                 +"\nIt can also modify chosen images with drawings"
                 +"\nLinks:\n\tDemo Playlist: https://www.youtube.com/playlist?list=PL7aAVBVTiRjvFVXQAOw8Ubmft6D5f_4cO"
-                +"\n\tRelease Notes: https://docs.google.com/document/d/1mz3IvMnGlgKEfMxXN43hUEHrsmvI47Y532WI6P-hDM0/edit?usp=sharing");
+                +"\n\tGitHub: https://github.com/sgilf/Paint");
     }
     
 /**
@@ -110,10 +110,10 @@ public class Information {
         pane.setMaxWidth(Double.MAX_VALUE);
         pane.getChildren().add(releaseNotes);
 
-        Alert helpAlert = new Alert(AlertType.INFORMATION);
-        helpAlert.setTitle("Release Notes");
-        helpAlert.getDialogPane().setContent(pane);
-        helpAlert.showAndWait();
+        Alert notesAlert = new Alert(AlertType.INFORMATION);
+        notesAlert.setTitle("Release Notes");
+        notesAlert.getDialogPane().setContent(pane);
+        notesAlert.showAndWait();
     }
 
 /**
@@ -134,7 +134,7 @@ public class Information {
 * Provides text for the polygon tool's hint.
 */
     public static final String polygonTooltip(){
-        return("Creates polygon of 3-4 sides");
+        return("Creates polygon of 2+ sides");
     }
     
 /**

@@ -2,6 +2,7 @@ SGilfPaint
 
 Links:
 *Demo Playlist: https://www.youtube.com/playlist?list=PL7aAVBVTiRjvFVXQAOw8Ubmft6D5f_4cO
+*GitHub: https://github.com/sgilf/Paint
 ________________________________________________________________________________
 Version 2.0.0 - 11/13/2020
 

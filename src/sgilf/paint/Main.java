@@ -18,6 +18,7 @@ import javafx.scene.control.MenuItem;
 import javafx.scene.control.ScrollPane;
 import javafx.scene.control.Separator;
 import javafx.scene.control.ToolBar;
+import javafx.scene.control.Tooltip;
 import javafx.scene.image.Image;
 import javafx.scene.image.PixelReader;
 import javafx.scene.image.WritableImage;
@@ -219,6 +220,7 @@ public class Main extends Application {
         });
         
         polygon = new Button("Polygon");
+        polygon.setTooltip(new Tooltip(Information.polygonTooltip()));
         polygon.setOnAction(action -> {
             if (activeButton != null) {activeButton.getStyleClass().remove("activeButton");}
             activeToolString = "Polygon";
@@ -228,6 +230,7 @@ public class Main extends Application {
         });
         
         selection = new Button("Select/Move");
+        selection.setTooltip(new Tooltip(Information.selectTooltip()));
         selection.setOnAction(action -> {
             if (activeButton != null) {activeButton.getStyleClass().remove("activeButton");}
             activeToolString = "Select/Move";
@@ -237,6 +240,7 @@ public class Main extends Application {
         });
         
         copy=new Button("Copy");
+        copy.setTooltip(new Tooltip(Information.copyTooltip()));
         copy.setOnAction(action -> {
             if (activeButton != null) {activeButton.getStyleClass().remove("activeButton");}
             activeToolString = "Copy";
@@ -246,6 +250,7 @@ public class Main extends Application {
         });
         
         paste = new Button("Paste");
+        paste.setTooltip(new Tooltip(Information.pasteTooltip()));
         paste.setOnAction(action -> {
             if (activeButton != null) {activeButton.getStyleClass().remove("activeButton");}
             activeToolString = "Paste";
@@ -255,6 +260,7 @@ public class Main extends Application {
         });
         
         text = new Button("Text");
+        text.setTooltip(new Tooltip(Information.textTooltip()));
         text.setOnAction(action -> {
             if (activeButton != null) {activeButton.getStyleClass().remove("activeButton");}
             activeToolString = "Text";
@@ -277,6 +283,7 @@ public class Main extends Application {
         colorPicker.setOnAction(event -> {drawColor = colorPicker.getValue();});
         
         colorGrabber = new Button("Color Grabber");
+        colorGrabber.setTooltip(new Tooltip(Information.grabberTooltip()));
         colorGrabber.setOnAction(action -> {
             if (activeButton != null) {activeButton.getStyleClass().remove("activeButton");}
             activeToolString = "Color Grabber";
