@@ -1,0 +1,161 @@
+SGilfPaint 
+
+Links:
+*Demo Playlist: https://www.youtube.com/playlist?list=PL7aAVBVTiRjvFVXQAOw8Ubmft6D5f_4cO
+________________________________________________________________________________
+Version 2.0.0 - 11/13/2020
+
+New Features:
+* Polygon now supports all numbers above 1
+* UI improvements
+* Release Notes directly accessible from UI
+
+
+Fixed:
+* Fixed choppy shape drawing
+* Actions undone and redone are no longer shared between canvases
+* Cleaned up code
+
+Known Issues:
+* None
+________________________________________________________________________________
+Version 1.5.0 - 10/7/2020
+
+New Features:
+* Autosave now provides prompt to confirm save
+* Tooltips
+* Internal logs of activity
+* Copy Tool
+* Paste Tool
+
+Fixed:
+* Autosave now saves to last opened file
+* Autosave timer properly decrements
+* Changes to first canvas no longer affect other canvases
+
+Known Issues:
+* Undone and redone changes are shared between canvases
+
+Expected Next Sprint:
+* Polygon working with any amount of desired sides
+* UI improvements
+
+Links:
+*Demo:https://youtu.be/-Iw2DRMrH_E
+________________________________________________________________________________
+Version 1.4.0 - 9/25/2020
+
+New Features:
+* Unit Tests
+* Autosave
+* Toggleable autosave visibility
+* Multiple drawing areas that can be swapped between
+* Indication for tool selection
+* Warning when saving in lossy file formats
+
+Known Issues:
+* Autosave does not properly save image
+* Autosave timer does not decrease correctly
+* Changes made to first canvas affect other canvases until swapping to another and back again
+* Undone and redone changes are shared between canvases
+
+Expected Next Sprint:
+* Working autosave
+* Tooltips
+* Logs of activity
+
+Links:
+*Demo:https://youtu.be/7ZiAUQqyAhM
+________________________________________________________________________________
+Version 1.3.0 - 9/21/2020
+
+New Features:
+* More shapes
+* Add text
+* Eraser tool
+* Indication for tool selection
+* Draw shape preview
+* Select and move pieces of image
+* Help menu with item descriptions
+
+Known Issues:
+* None
+
+Expected Next Sprint:
+* More Shapes
+* Unit Tests
+* Autosave
+* Warning when saving as different file type
+* Multiple tabs for different drawing areas
+
+Links:
+*Demo:https://youtu.be/btvXY2P6xmM
+________________________________________________________________________________
+Version 1.2.0 - 9/11/2020
+
+New Features:
+* Tools for creating shapes
+* Overwrite save confirmation
+* Toolbar for drawing controls.
+* Keyboard shortcuts
+* Color dropper
+* Resizable canvas
+* Undo and Redo button
+
+Known Issues:
+* None
+
+Expected Next Sprint:
+* More shapes
+* Add text
+* Eraser tool
+* Indication for tool selection
+* Draw shape preview
+* Select and move pieces of image
+
+Links:
+*Demo:https://youtu.be/z0ETL7Ut4TE
+________________________________________________________________________________
+Version 1.1.0 - 9/4/2020
+
+New Features:
+* Overhauled Menu Bar for easier usage
+* Opened image now is drawable
+* Drawings save with image
+* Added scroll bars to drawable area
+* Added freehand draw option
+* Added options to change color and width of drawn objects
+* Added help menu
+
+Known Issues:
+* None
+
+Expected Next Sprint:
+* Tools for creating shapes
+* Overwrite save confirmation
+* Toolbar for drawing controls.
+* Keyboard shortcuts
+* Color dropper
+* Resizable canvas
+* Undo button
+
+Links:
+*Demo:
+________________________________________________________________________________
+Version 1.0.0 - 08/27/2020
+
+New Features:
+* Created GUI
+* Created Menu Bar
+* Added buttons for opening and displaying images, saving image to original location, saving image to different location
+* Created drawable canvas
+
+Known Issues:
+* None
+
+Expected Next Sprint:
+* Change opening location of picture to top-left corner
+* Add tools for adding text to image
+
+Links:
+* Demo: https://youtu.be/Njk6gS4ekAU
