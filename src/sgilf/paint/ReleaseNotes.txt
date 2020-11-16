@@ -1,8 +1,9 @@
 SGilfPaint 
 
 Links:
-*Demo Playlist: https://www.youtube.com/playlist?list=PL7aAVBVTiRjvFVXQAOw8Ubmft6D5f_4cO
-*GitHub: https://github.com/sgilf/Paint
+* Demo Playlist: https://www.youtube.com/playlist?list=PL7aAVBVTiRjvFVXQAOw8Ubmft6D5f_4cO
+* Full Demo: https://youtu.be/sH5vrVKsWSg
+* GitHub: https://github.com/sgilf/Paint
 ________________________________________________________________________________
 Version 2.0.0 - 11/13/2020
 
@@ -19,6 +20,9 @@ Fixed:
 
 Known Issues:
 * None
+
+Link:
+* YouTube: https://youtu.be/sH5vrVKsWSg
 ________________________________________________________________________________
 Version 1.5.0 - 10/7/2020
 
@@ -42,7 +46,7 @@ Expected Next Sprint:
 * UI improvements
 
 Links:
-*Demo:https://youtu.be/-Iw2DRMrH_E
+*Demo: https://youtu.be/-Iw2DRMrH_E
 ________________________________________________________________________________
 Version 1.4.0 - 9/25/2020
 
@@ -66,7 +70,7 @@ Expected Next Sprint:
 * Logs of activity
 
 Links:
-*Demo:https://youtu.be/7ZiAUQqyAhM
+*Demo: https://youtu.be/7ZiAUQqyAhM
 ________________________________________________________________________________
 Version 1.3.0 - 9/21/2020
 
@@ -90,7 +94,7 @@ Expected Next Sprint:
 * Multiple tabs for different drawing areas
 
 Links:
-*Demo:https://youtu.be/btvXY2P6xmM
+*Demo: https://youtu.be/btvXY2P6xmM
 ________________________________________________________________________________
 Version 1.2.0 - 9/11/2020
 
@@ -115,7 +119,7 @@ Expected Next Sprint:
 * Select and move pieces of image
 
 Links:
-*Demo:https://youtu.be/z0ETL7Ut4TE
+*Demo: https://youtu.be/z0ETL7Ut4TE
 ________________________________________________________________________________
 Version 1.1.0 - 9/4/2020
 
@@ -141,7 +145,7 @@ Expected Next Sprint:
 * Undo button
 
 Links:
-*Demo:
+*Demo: https://youtu.be/wSmk25NKftM
 ________________________________________________________________________________
 Version 1.0.0 - 08/27/2020
 
